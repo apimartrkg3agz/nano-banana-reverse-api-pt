@@ -1,14 +1,27 @@
-# nano-banana-reverse-api-pt — gateway de API (Português)
+# Nano Banana API (`gemini-2.5-flash-image-preview`)
 
-> **One OpenAI-compatible key, 300+ models** · image2.5 **$0.0085/image** · Seedance 2.0 Mini **$0.01056/sec** · LLM from **$0.0228 / M tokens** · $1 minimum top-up.
+<!-- conv-kit:v1 -->
 
-**[Ver preços](https://go.apimart.ai/k-73288f)** · **[Obter chave de API](https://go.apimart.ai/k-bbe238)**
+<p align="center">
+  <img src="assets/badges/price.svg" alt="observed unit price"> <img src="assets/badges/billing.svg" alt="billing model"> <img src="assets/badges/compat.svg" alt="OpenAI-compatible endpoint">
+</p>
 
-nano-banana-reverse-api-pt coloca um único `base_url` e uma única chave à frente de 300+ modelos — cobrança em USD, pagamento por uso, recarga mínima de $1.
+<p align="center">
+  <img src="assets/01-product-hero-perfume.jpg" width="820" alt="Nano Banana (gemini-2.5-flash-image-preview) output generated through APIMart">
+</p>
 
-### engenharia reversa / reverse-engineered routes
+> **from $0.0125 per image** — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-10-12)*
 
-nano-banana-reverse-api-pt lista rotas **engenharia reversa** e oficiais lado a lado: os IDs `-ext` são o rótulo reverso, os demais modelos usam rota oficial com preço reduzido. Uma chave cobre ambos.
+**[Get an API key](https://go.apimart.ai/k-bbe238)** · **[Live pricing](https://go.apimart.ai/k-3910d6)** · **[Model page](https://go.apimart.ai/k-54e944)** · [⚡ 60-second quickstart](#quickstart)
+
+**Why teams call Nano Banana (`gemini-2.5-flash-image-preview`) through APIMart**
+
+- **One key, entire catalog.** The same `https://api.apimart.ai/v1` base URL and `Authorization` header reach Nano Banana (`gemini-2.5-flash-image-preview`) and 300+ other image, video and language models — switch the `model` field, not your client.
+- **$1 minimum, pay as you go.** No subscription and no prepaid plan to size up front: top up from $1 and spend it on calls. There is no free quota to burn through first, so the price in this table is the price you pay.
+- **The charge comes back in the response.** Every completed task reports the amount billed (`cost` / `credits_cost`), so a spend number is read per call instead of guessed at month end.
+- **Async by design.** Submit, take the `task_id`, poll `GET /v1/tasks/{id}` — batching and retries are ordinary queue work, not a bespoke integration.
+
+<!-- /conv-kit:v1 -->
 
 ## Published unit prices (snapshot 2026-09-28)
 
